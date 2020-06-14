@@ -5,7 +5,7 @@ var response;
 
 app.get('/', function (req, res) {
 
-    response = 'This is version 2.00 of the app.' + '\n';
+    response = 'This is version 3.2.1 of the versioning app.' + '\n';
 
     //send the response to the client
     res.send(response);
